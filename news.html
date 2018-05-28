@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>خبر</title>
+    <title>رویداد های دانشجویی</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,22 +16,40 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="css/blog-home.css" rel="stylesheet" type="text/css">
+ <!--    <link href="css/blog-home.css" rel="stylesheet" type="text/css"> -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
+    <!-- <script type="text/javascript">
+       $(document).ready(function(){ 
+         var nav_top=$('.navbar').position().top; 
+         var nav_height=$('.navbar').outerHeight(); 
+          
+         $(window).on('scroll', function(e){ 
+           if($(this).scrollTop()>nav_top){ 
+               $('.navbar').addClass('fixed-top'); 
+               $('header').css({'margin-bottom':nav_height}); 
+           }else{ 
+               $('.navbar').removeClass('fixed-top'); 
+               $('header').css({'margin-bottom':0}); 
+           } 
+         }); 
+       }); 
+     </script> --> 
+ 
   </head>
 
   <body id="back-col">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " >
       <div class="container" >
-        <a class="navbar-brand" href="#"><strong>رویداد های دانشجویی دانشگاه های تهران</strong></a>
+        <a class="navbar-brand" href="#"><strong>رویداد های دانشجوی دانشگاه های تهران</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse nav-dir" id="navbarResponsive " >
-          <ul class="navbar-nav ml-auto " >
+        <div class="collapse navbar-collapse nav-dir" id="navbarResponsive" >
+          <ul class="navbar-nav ml-auto" >
             <li class="nav-item active" >
               <a class="nav-link" href="#">
                 <span class="sr-only">(current)</span> خانه
@@ -40,14 +58,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#">ارسال رویداد ها</a>
             </li>
-            <li class="dropdown ">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >  دانشگاه ها    <span class="caret"></span> </a>
-             <div class="dropdown-menu li-col" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">دانشگاه خوارزمی</a>
-                <a class="dropdown-item" href="#">دانشگاه شریف</a>
-                <a class="dropdown-item" href="#">دانشگاه تهران</a>
-                <a class="dropdown-item" href="#">دانشگاه خواجه نصیر</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">دانشگاه ها</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">درباره</a>
